@@ -1,11 +1,17 @@
 #include <iostream>
+#include <cmath>
 using namespace std;
 
+
+
 int main() {
-   
-   int wnumber = 10;
-   double dnumber = 10.20;
-   dnumber++;
-   cout << dnumber << endl;
-    return 0;
+    int num1 = 7;
+    double num2 = 4.3345354;
+    string name = "helllllo livon";
+    cout << &num1 << endl;
+    cout << &num2 << endl;
+    cout << &name << endl;
+
+    int *pNum1 = &num1;
+    cout << pNum1 << endl;
 }
